@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_URL = "https://quick-app-408j.onrender.com/auth";
+const API_URL = "https://quick-app-408j.onrender.com/api/auth";
 
 // Signup user
 export const signupUser = createAsyncThunk("auth/signup", async (formData, { rejectWithValue }) => {
