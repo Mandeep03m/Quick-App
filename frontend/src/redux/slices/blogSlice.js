@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_URL = "https://quick-app-408j.onrender.com/blog";
+const API_URL = "https://quick-app-408j.onrender.com/api/blog";
 
 export const fetchBlogs = createAsyncThunk("blogs/fetch", async () => {
   const token = localStorage.getItem("token");

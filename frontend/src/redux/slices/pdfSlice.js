@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_URL = "https://quick-app-408j.onrender.com/summarize";
+const API_URL = "https://quick-app-408j.onrender.com/api/summarize";
 
 export const summarizePdf = createAsyncThunk(
   "pdf/summarize",
