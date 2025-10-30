@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/api/scraper";
+const API_URL = "https://quick-app-408j.onrender.com/scraper";
 
 export const fetchResults = createAsyncThunk(
   "scraper/fetch",
